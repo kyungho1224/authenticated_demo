@@ -1,0 +1,4 @@
+[submodule "src/main/resources/authenticated_security"]
+	path = src/main/resources/authenticated_security
+	url = git@github.com:kyungho1224/authenticated_security.git
+	branch = main

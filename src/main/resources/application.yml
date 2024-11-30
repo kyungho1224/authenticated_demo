@@ -1,0 +1,10 @@
+spring:
+  config:
+    import:
+      - classpath:/authenticated_security/application-local.yml
+      - classpath:/authenticated_security/application-dev.yml
+      - classpath:/authenticated_security/application-prod.yml
+
+  profiles:
+    default: local
+    active: dev
